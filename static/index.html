@@ -55,7 +55,7 @@
           })
           .catch(err => console.log("Failed to get vmis: " + err));
        }
-       let namespace = WebUtil.getQueryVar('namespace', 'default');
+       let namespace = WebUtil.getQueryVar('namespace', 'vms');
 
        loadVMI(namespace);
     </script>
